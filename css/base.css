@@ -100,8 +100,14 @@ p {
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: tomato;
 }
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 .navigation {
 	list-style: none;
 	padding: 0;
