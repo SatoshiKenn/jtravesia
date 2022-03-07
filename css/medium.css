@@ -37,6 +37,10 @@
     grid-column: 1/3;
   }
 
+  #fpart1 {
+    display: block;
+  }
+
   #fpart1 h1 {
     font-size: 1.5rem;
   }
@@ -49,5 +53,5 @@
     width: 200px;
     height: auto;
   }
-  
+
 }
