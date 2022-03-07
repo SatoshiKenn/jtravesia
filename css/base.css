@@ -67,11 +67,6 @@ p {
   justify-content: center;
 }
 
-.logo img {
-  width: 80px;
-  height: auto;
-}
-
 .img {
   display: flex;
   justify-content: center;
@@ -93,7 +88,7 @@ p {
 
 /*LOGO*/
 .logo img {
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 /*NAV*/
