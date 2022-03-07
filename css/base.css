@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f6f1ea;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bbb;
+}
+
+body {
+  font-size: 16px;
+  font-family: Ubuntu, "Sansita", sans-serif;
+}
+
+header,
+main,
+footer {
+  max-width: 767px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 1.1rem;
+  color: #536878;
+  text-align: center;
+}
+h2 {
+  color: #536878;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.social {
+  margin-right: 1.5rem;
+  display: flex;
+  margin: auto;
+}
+
+.social img {
+  width: 25px;
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+#hpart2 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+/*LOGO*/
+.logo img {
+  width: 100px;
+  height: auto;
+}
+/*NAV*/
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: tomato;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background-color: #373737;
+  transition: 0.5s;
+}
+
+.navigation a:hover {
+	background-color: #f2f3ae;
+  color: #36454f;
+}
+
+.responsive li {
+	display: block;
+}
