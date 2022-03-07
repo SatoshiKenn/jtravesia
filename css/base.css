@@ -131,9 +131,7 @@ nav ul {
 	background-color: #71A74B;
 }
 
-.navigation a:nth-of-type(even){
-	background-color: #BD2F2D;
-}
+
 
 .navigation a:hover {
 	background-color: #32566E;
@@ -172,5 +170,30 @@ footer {
   padding: 10px;
 }
 
+footer {
+  display: grid;
+}
+
+#fpart1 h1 {
+  font-size: 1.5rem;
+}
+
+#fpart1 a {
+  font-size: 1rem;
+}
+
+#fpart2 {
+  grid-row: 2;
+  grid-column: 1/3;
+  display: flex;
+  flex-flow: row;
+}
+
+#instagram {
+  margin-top: 20px;
+  width: 20px;
+  height: auto;
+  margin-bottom: 20px;
+}
 /*Button Airplane*/
 
