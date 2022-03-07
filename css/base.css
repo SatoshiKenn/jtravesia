@@ -17,7 +17,7 @@ header {
 
 body {
   font-size: 16px;
-  font-family: Ubuntu, "Sansita", sans-serif;
+  font-family: 'Sansita Swashed', cursive;
   background: "images/bgairplane.jpg";
 }
 
@@ -32,7 +32,7 @@ footer {
 h1,
 h2,
 h3 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Sansita Swashed', cursive;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h2 {
 }
 
 p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Sansita Swashed', cursive;
   font-size: 1.5em;
   padding: 10px;
 }
@@ -130,7 +130,7 @@ nav ul {
   background-color: #71a74b;
 }
 
-.navigation:nth-child(2):hover {
+.navigation a:nth-of-type(2):hover {
   background-color: red;
 }
 
