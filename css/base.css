@@ -120,8 +120,16 @@ nav ul {
   padding: 0.75rem;
   text-decoration: none;
   font-size: 0.95rem;
-  background-color: #373737;
+  background-color: #32566E;
   transition: 0.5s;
+}
+
+.navigation a:nth-child(1):hover{
+	background-color: #71A74B;
+}
+
+.navigation a:nth-of-type(even){
+	background-color: #BD2F2D;
 }
 
 .navigation a:hover {
