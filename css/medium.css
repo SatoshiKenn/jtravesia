@@ -71,4 +71,30 @@
     margin-bottom: 20px;
   }
 
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .galeria article {
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 320px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
 }

@@ -24,7 +24,7 @@ body {
 header,
 main,
 footer {
-  max-width: 767px;
+  max-width: 1400px;
   margin: 0 auto;
   border-radius: 10px;
 }
@@ -90,6 +90,11 @@ p {
 
 /*LOGO*/
 .logo img {
+  width: 150px;
+  height: auto;
+}
+
+.logof img {
   width: 150px;
   height: auto;
 }
@@ -168,6 +173,7 @@ footer {
 
 footer {
   display: grid;
+  height: 269px;
 }
 
 #fpart1 {
@@ -190,6 +196,44 @@ footer {
   grid-column: 1/3;
   display: flex;
   flex-flow: row;
+  margin-top: -25px;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.logof {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.headings {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.contact, .tel, .address {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.contact {
+  margin-top: -150px;
+}
+
+.tel {
+  margin-top: -10px;
+  text-align: center;
+}
+
+.tel a {
+  font-size: 1rem;
+}
+
+.address {
+  margin-top: 150px;
 }
 
 #instagram {
@@ -232,6 +276,27 @@ main {
 #mayor {
   width: 100%;
   height: auto;
+}
+
+.galeria {
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+  flex-flow: column;
+}
+
+.card {
+  width: 320px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card p {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
 }
 
 /*Button Airplane*/

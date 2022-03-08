@@ -5,4 +5,4 @@ const year = today.getFullYear();
 
 //Last date modified code
 const lastmodified = document.querySelector("#lastmodified");
-lastmodified.innerHTML = `&copy; ${year} | Jardin Travesia |`;
+lastmodified.innerHTML = `&copy; ${year} | Jardín Infantil Travesía |`;
