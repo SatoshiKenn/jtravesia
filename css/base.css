@@ -39,6 +39,12 @@ main {
   flex-flow: column;
 }
 
+main #bienvenida {
+  text-align: center;
+  background: rgba(251, 235, 184, 0.7);
+  border-radius: 60px;
+}
+
 h1,
 h2,
 h3 {
@@ -50,6 +56,7 @@ h1 {
   color: #536878;
   text-align: center;
 }
+
 h2 {
   color: #536878;
   text-align: center;
@@ -108,6 +115,7 @@ p {
   width: 150px;
   height: auto;
 }
+
 /*NAV*/
 nav {
   margin: 0 auto;
@@ -124,12 +132,15 @@ nav ul {
   list-style: none;
   padding: 0;
 }
+
 .navigation li:first-child {
   display: block;
 }
+
 .navigation li {
   display: none;
 }
+
 .navigation a {
   display: block;
   color: #fff;
@@ -224,7 +235,9 @@ footer {
   grid-row: 2;
 }
 
-.contact, .tel, .address {
+.contact,
+.tel,
+.address {
   grid-column: 2;
   grid-row: 1;
   margin-left: -45px;
@@ -266,7 +279,7 @@ footer {
 #phone {
   width: 125px;
   height: auto;
-  
+
 }
 
 #instagram {
