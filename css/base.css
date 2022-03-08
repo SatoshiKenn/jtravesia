@@ -221,6 +221,14 @@ main {
   padding: 20px;
 }
 
+.contact p {
+  text-align: center;
+}
+
+.contact a {
+  font-size: .73rem;
+}
+
 #mayor {
   width: 100%;
   height: auto;
