@@ -42,7 +42,7 @@ main {
 main #bienvenida {
   text-align: center;
   background: rgba(251, 235, 184, 0.7);
-  border-radius: 60px;
+  border-radius: 40px;
 }
 
 h1,
