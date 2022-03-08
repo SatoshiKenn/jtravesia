@@ -86,6 +86,21 @@
     font-size: 0.8rem;
   }
 
+  #direccion {
+    width: 300px;
+    height: auto;
+  }
+
+  #email {
+    width: 350px;
+    height: auto;
+  }
+
+  #phone {
+    width: 175px;
+    height: auto;
+  }
+
   #instagram {
     margin-top: 20px;
     width: 20px;
@@ -119,5 +134,25 @@
     background-color: white;
     overflow: hidden;
     transition: transform 0.2s;
+  }
+
+  /*Cloud*/
+  #cloud {
+    position: absolute;
+    z-index: -1;
+    margin-top: -20px;
+    margin-left: -40px;
+  }
+
+  .cloud{
+    padding: 40px;
+  }
+
+  .cloud p {
+    margin-top: 210px;
+    max-width: 700px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    text-align: center;
   }
 }

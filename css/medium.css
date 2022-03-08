@@ -41,6 +41,9 @@
   .contact {
     font-size: .7rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
   }
 
   .contact a {
@@ -62,6 +65,27 @@
 
   #fpart1 a {
     font-size: 1rem;
+  }
+
+  .address {
+    justify-content: center;
+    display: flex;
+    margin-bottom: -10px;
+  }
+
+  #direccion {
+    width: 200px;
+    height: auto;
+  }
+
+  #email {
+    width: 250px;
+    height: auto;
+  }
+
+  #phone {
+    width: 125px;
+    height: auto;
   }
 
   #instagram {
