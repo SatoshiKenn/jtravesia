@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  display: flex;
+}
+
 header {
   background-color: #fbebb8;
   padding: 5px 0;
