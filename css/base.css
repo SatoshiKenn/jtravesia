@@ -58,6 +58,10 @@ h1 {
   text-align: center;
 }
 
+.headings h1 {
+  font-size: 1.9rem;
+}
+
 h2 {
   color: #536878;
   text-align: center;
