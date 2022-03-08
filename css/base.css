@@ -44,6 +44,7 @@ main #bienvenida {
   background: rgba(251, 235, 184, 0.7);
   border-radius: 40px;
   color: #32566E;
+  font-size: 1rem;
 }
 
 h1,

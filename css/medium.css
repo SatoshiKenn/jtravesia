@@ -35,6 +35,10 @@
     font-size: 4rem;
   }
 
+  main #bienvenida {
+    font-size: 1.5rem;
+  }
+
   footer {
     display: grid;
     justify-content: space-evenly;
