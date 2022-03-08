@@ -74,6 +74,7 @@
   .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
   }
 
   .galeria article {
@@ -82,6 +83,11 @@
 
   #hgaleria {
     font-size: 2rem;
+  }
+
+  div.galeria article:nth-child(3){
+    grid-column: 1/3;
+    grid-row: 2;
   }
 
   .card {
