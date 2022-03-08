@@ -25,6 +25,26 @@
 
   footer {
     display: grid;
+    justify-content: space-evenly;
+  }
+
+  #fpart1 {
+    display: grid;
+  }
+
+
+  .logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .headings {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .contact {
+    grid-column: 2;
   }
 
   #fpart1 h1 {

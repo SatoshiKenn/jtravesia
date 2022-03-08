@@ -17,7 +17,7 @@ header {
 
 body {
   font-size: 16px;
-  font-family: 'Sansita Swashed', cursive;
+  font-family: "Sansita Swashed", cursive;
   background: "images/bgairplane.jpg";
 }
 
@@ -32,7 +32,7 @@ footer {
 h1,
 h2,
 h3 {
-  font-family: 'Sansita Swashed', cursive;
+  font-family: "Sansita Swashed", cursive;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h2 {
 }
 
 p {
-  font-family: 'Sansita Swashed', cursive;
+  font-family: "Sansita Swashed", cursive;
   font-size: 1.5em;
   padding: 10px;
 }
@@ -198,4 +198,32 @@ footer {
   height: auto;
   margin-bottom: 20px;
 }
+
+.card {
+  width: 320px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card p {
+  text-align: justify;
+  font-weight: bold;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  row-gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+#mayor {
+  width: 100%;
+  height: auto;
+}
+
 /*Button Airplane*/
