@@ -29,6 +29,11 @@ footer {
   border-radius: 10px;
 }
 
+main {
+  display: flex;
+  flex-flow: column;
+}
+
 h1,
 h2,
 h3 {
@@ -297,6 +302,10 @@ main {
   text-align: center;
   font-weight: bold;
   margin: 10px;
+}
+
+#hgaleria {
+  font-size: 2rem;
 }
 
 /*Button Airplane*/
