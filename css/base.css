@@ -41,7 +41,7 @@ main {
 
 main #bienvenida {
   text-align: center;
-  background: rgba(251, 235, 184, 0.7);
+  background: rgba(251, 235, 184, 0.5);
   border-radius: 40px;
   color: #32566E;
   font-size: 1rem;
