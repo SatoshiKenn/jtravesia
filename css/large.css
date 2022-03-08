@@ -102,6 +102,10 @@
     margin: 0 auto;
   }
 
+  #hgaleria {
+    font-size: 3rem;
+  }
+
   .card {
     width: 380px;
     box-shadow: 1px 1px 4px 1px #888;
