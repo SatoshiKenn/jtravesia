@@ -19,7 +19,7 @@
   <script defer src="js/dates.js"></script>
   <script defer src="js/navigation.js"></script>
   <script defer src="js/footer.js"></script>
-  <script defer src="js/airbutton.js"></script>
+  <script defer src="js/btnnivel.js"></script>
 </head>
 
 <body background="images/bgairplane.jpg">
@@ -49,7 +49,7 @@
     </div>
   </header>
   <main>
-    <p id="bienvenida">
+    <p class="paragraph" id="bienvenida">
       ¡Hola! te invitamos a conocer y ser parte de nuestra comunidad educativa. En sala cuna y jardín infantil Travesía
       te brindamos un espacio para ser feliz, disfrutar, soñar, crecer, jugar y sobre todo aprender, a través de
       enriquecedoras experiencias de aprendizaje y fomentando un vínculo afectivo significativo entre niños y la familia
@@ -60,27 +60,55 @@
       <article class="card">
         <picture>
           <img id="mayor" src="images/salacuna.jpg" alt="image1" />
-          <p>
-            Sala Cuna Mayor
-          </p>
+          <button id="btncuna" class="nivelbtn">
+            <p>
+              Sala Cuna Mayor
+            </p>
+          </button>
         </picture>
       </article>
+      <p class="paragraph" id="cunamayor">
+        Cuenta con baño de uso exclusivo con acceso directo a la sala de actividades. En el podrán encontrar un mudador
+        y casilleros para las pertenencias de todos los niños y niñas, repisas con sus respectivos vasos y cepillos de
+        dientes, para promover este hábito desde los más pequeños. Además, cuenta con un WC para trabajar el control de
+        esfínter según sea necesario. <button id="cunacerrar" class="nivelbtn">Cerrar.</button>
+      </p>
       <article class="card">
         <picture>
           <img id="mayor" src="images/nivelmedio.jpg" alt="image1" />
-          <p>
-            Nivel Medio
-          </p>
+          <button id="btnmedio" class="nivelbtn">
+            <p>
+              Nivel Medio
+            </p>
+          </button>
         </picture>
       </article>
+      <p class="paragraph" id="nivelmedio">
+        ¡Hola! te invitamos a conocer y ser parte de nuestra comunidad educativa. En sala cuna y jardín infantil
+        Travesía
+        te brindamos un espacio para ser feliz, disfrutar, soñar, crecer, jugar y sobre todo aprender, a través de
+        enriquecedoras experiencias de aprendizaje y fomentando un vínculo afectivo significativo entre niños y la
+        familia
+        que es Travesía.
+      </p>
       <article class="card">
         <picture>
           <img id="mayor" src="images/transicion.jpg" alt="image1" />
-          <p>
-            Transición
-          </p>
+          <button id="btntransicion" class="nivelbtn">
+            <p>
+              Nivel Medio
+            </p>
+          </button>
         </picture>
       </article>
+      <p class="paragraph" id="transicion">
+        ¡Hola! te invitamos a conocer y ser parte de nuestra comunidad educativa. En sala cuna y jardín infantil
+        Travesía
+        te brindamos un espacio para ser feliz, disfrutar, soñar, crecer, jugar y sobre todo aprender, a través de
+        enriquecedoras experiencias de aprendizaje y fomentando un vínculo afectivo significativo entre niños y la
+        familia
+        que es Travesía.
+      </p>
     </div>
   </main>
   <footer>
@@ -98,9 +126,13 @@
     </div>
     <div class="contact">
       <p>
-        <source srcset="images/email.png" media="(min-width: 40rem) and (max-width: 63.9rem)"><a class="email"
-          href="mailto:jardininfantiltravesia@gmail.com" target="_blank"><img id="email" src="images/emailsmall.png"
-            alt="email Jardín Infantil Travesía"></a></p>
+        <a class="email" href="mailto:jardininfantiltravesia@gmail.com" target="_blank">
+          <picture>
+            <source srcset="images/emailv2.png" media="(min-width: 64rem)">
+            <img id="email" src="images/emailsmall.png" alt="email Jardín Infantil Travesía">
+          </picture>
+        </a>
+      </p>
     </div>
     <div class="tel">
       <p><a class="phone" href="tel:+56977696387"><img id="phone" src="images/phone.png" alt="telefono"></a></p>
